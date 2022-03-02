@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900">
+
+    <title>Exercice 2 html</title>
+</head>
+<style>
+    /*header*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%;
+    }
+.pa{ text-align: center;}
+.me {margin-left: 10%;}
+ 
+ #me1 {margin-right: 5%;
+     color: #FFFFFF;
+ }
+ #me2 {margin-left: -50%;
+     color: #FFFFFF
+ }
+ #me3 {
+     float: right;
+     margin-right: 1%;
+ }
+ .logo{
+     margin-top: -3%;    
+ }
+ .send {
+     background-color: #3d9f96;
+     color: #FFF;
+     border: #3d9f96;
+     border-radius: 25px;
+     width: 25%;
+     height: 20%;
+ }
+ /*deuxieme contenu*/
+ .fiere {
+    position: absolute;
+    margin-top: -10%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    width: 100%;
+ }
+ .check{
+     padding-top: 5%;
+     flex: 0%;
+ }     
+/* trois*/
+.background1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 29%;
+     margin-right: 29%;
+ }
+ .dbackground1{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+   }
+   .col1{
+       position: relative;
+       
+   }
+   /*screenshot*/
+ .row{
+     display: flex;
+     justify-content: center;
+ }
+ .col{
+     margin: 1%;
+ }
+
+ /*troisieme partie*/
+ .apartie3{
+     position: absolute;
+     margin-top: 15%;
+     left: 8%;
+    }
+ .row1{
+     display: flex;
+     justify-content: center;
+ }
+ .col{margin: 2%;}
+ /*quatrieme partie*/
+ 
+ .quatre{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .derniere{
+     display: flex;
+ }
+ /*footer*/
+.manjavona-web{
+    position: relative;
+    display: none;}
+
+.manjavona-web1{
+    display: none;}
+
+.manjavona-web2{
+    display: none;}
+
+footer{display: inline;}
+
+ @media all and (max-width: 480px) {
+     .me {
+         display: none;
+     }
+     .logo{
+         width: 100%;
+         padding-top: 6%;
+     }
+     button{
+         text-transform: uppercase;
+     }
+     .social{
+         display: none;
+     }
+     .background1{
+         display: block;
+         background-position-y: 45%;
+         background-repeat: no-repeat;
+         text-align: center;
+         background-size: 90%;
+         margin-left: 0%;
+         margin-right: 0%;
+     }
+     .dbackground1{
+         display: none;
+     }
+     .row{
+         display: block;
+         text-align: center;
+     }
+     .manjavona{display: none;}
+
+     .row1{
+         display: block;
+        text-align: center;
+     } 
+     .apartie3{display: none;}
+     .col1{
+       width: 100%;}
+
+     .derniere{
+      display: block;
+}
+.row5{display: block;}
+
+ }
+</style>
+
+<body>
+    <div class="pa" style="background-image: url(img/header_bg.jpg)">
+        <!--header-->
+        <header>
+            <div class="me" id="me1"> <strong>Home</strong></div>
+            <div class="me" id="me2"><strong> Features</strong></div>
+            <div class="me" id="me3"><strong><a href="#">Get it Now</strong></a></div>
+        </header>
+        <div class="logo"> <img src="img/SAYNA_Horizontal_-_Blanc.png" style="width: 20%;"></div>
+     <hr>
+     <!-- premier contenu -->
+<br>
+<h1 style="color: #FFFFFF; font-size: 2em;"> Promote your <strong>New App!</strong></h1>
+<br>
+<h3 style="color:#3d9f96;font-size: 1em;">NEW SOFTWARE IN THE APP STORE</h3>
+   <br> 
+     <p style="color: #FFFFFF;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.</p>
+      <!--bouton-->
+      <br> <button class="send"> Buy Now</button><br>
+      <!--ordinateur--> 
+   <br><img src="img/ordinateur.png" style="width:50%">
+   <!--deuxieme contenu  avec background white-->
+     <div class="fiere" ; style="background-color:#FFFFFF;">
+       <img src="img/social_icon1.png">
+       <img src="img/social_icon2.png">
+       <img src="img/social_icon3.png">
+       <img src="img/social_icon4.png">
+       <img src="img/social_icon5.png">
+       <img src="img/social_icon6.png">
+       <img src="img/social_icon5.png">
+       <div class="social" style="color:#3d9f96; text-align: center;">SOCIAL MEDIA OPTION</div>
+     </div>
+
+    </div>
+
+  <!--deux-->
+ <div class="check">
+    <p style="text-align:center;">Check Our New App.
+        <br>Aenean lacinia bibendum nulla sed consectetur.
+        Donec sed <br>odio dui.Lorem ipsum dolor sit amet,consectetur adipiscing
+    </p>
+     <br>
+  
+<!--trois-->
+<div class="background1" style="background-image: url(img/map_bg.png)">
+    <!--colonne 1-->
+    <div class="col1">
+        <img src="img/icon_28px_1.png">Awesomeness<br>Aenean lacinia bibendum nulla sed consectetur.<br>
+        <br><img src="img/icon_28px_2.png">Pro Concept<br>Aenean lacinia bibendum nulla sed consectetur.<br>
+        <br><img src="img/icon_28px_3.png">Litmus Tested.<br>Aenean lacinia bibendum nulla sed consectetur.
+    </div>
+<!--colonne 2-->
+<div class="col1">
+    <div class="manjavona-web"><img src="img/iphone.png"></div>
+    <img class="manjavona" src="img/image_190px_1.png">
+    <img class="dbackground1" src="img/logo.png">
+  </div>
+<!--colonne 3-->
+  <div class="col1">Skills<img src="img/icon_28px_4.png"><br>Aenean lacinia bibendum nulla sed consectetur.
+    <br><br>Responsive<img src="img/icon_28px_5.png"><br>Aenean lacinia bibendum nulla sed consectetur.
+    <br><br>Teste<img src="img/icon_28px_6.png"><br>Aenean lacinia bibendum nulla sed consectetur.
+  </div>
+ </div>
+</div> 
+
+<!--quatre-->
+<div class="partie2" style="background-image: url(img/seperator1-.jpg);
+text-align: center; padding-top: 2%;">
+    <img src="img/avatar_91px_1.png">
+    <p style="color: #FFFFFF;">Nullam quis risus eget urna mollis ornare vel eu leo.<br> Nullam id dolor id nibh ultricies.</p>
+    <p style="color: #3d9f96;">-JOHN DO</p>
+</div>
+<!--screenshots-->
+<br>
+<div class="container">
+  
+        <div style="text-align: center;"><p>the best <b>Screenshot</b></p></div>
+    <br>
+   <div class="row">
+    <div class="col">
+      <figure><img src="img/image_185px_1.jpg">
+        <figcaption>Screenshot 1</figcaption>
+      </figure>
+    </div>
+
+    <div class="col">
+     <figure><img src="img/image_185px_2.jpg">
+        <figcaption>Screenshot 2</figcaption>
+     </figure> 
+    </div>
+
+    <div class="col"> 
+        <div class="manjavona">
+     <figure><img src="img/image_185px_3.jpg">
+        <figcaption>Screenshot 3</figcaption>
+     </figure></div>
+        </div>
+    </div>
+   
+</div>
+<!--troisieme partie-->
+<br>
+<div class="row1" style="background-color: #f9f9f9;">
+    <div class="col">
+      
+    <img src="img/image_300px_1.png">
+    <img class="apartie3" src="img/logo.png">
+    </div>
+<br>
+    <div class="col">
+         <img class="manjavona-web1" src="img/Composant_1_2.png">
+     Litmus Tested.<br>Aenean lacinia bibendum nulla sed consectetur.Donec sed odio dui.
+     <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam.
+     <br><br><button class="send"> See it here</button>
+    </div>
+</div>
+<!--quatrieme partie-->
+<div class="quatre" ; style="display: flex;" >
+  
+      <div class="col">
+       <img class="manjavona-web2" src="img/image_300px_2.png">  
+   <p>100% <b>Responsive.</b> 
+       <br><br>Donec sed odio dui.<br>
+       Donec id elit non mi porta gravida at eget metus.<br>
+       Vestibulum id ligula porta felis euismod semper.<br>
+       Integer posuere erat a ante venenatis dapibus posuere velit aliquet.<br>
+       Cras mattis consectetur purus sit amet fermentum.<br>
+       Nullam quis risus eget urna mollis ornare vel eu leo.<br>
+       Maecenas faucibus mollis interdum. <br>
+      <button class="send"> Visit Website </button></p>
+     </div>
+    <div class="col">
+       <img class="manjavona" src="img/image_300px_2.png">
+    </div>
+</div> 
+
+<!--derniere partie-->
+<div class="derniere" ; style="background-color: #f9f9f9;">
+    <div class="col" style="margin-left: 10%;">
+    <img src="img/SAYNA_Horizontal_-_Noir.png" style="width: 20%;">
+     <p> Donec sed odio dui. Donec id elit non mi porta gravida at eget metus.<br>
+     Vestibulum id ligula porta felis euismod semper.<br>
+     Nullam quis risus eget urna.</p>
+    </div>
+ 
+   <div class="col"> <p> <b>INFO </b> <br> Website <br> Features <br> Appstore <br> Unsubscribe </p> </div>
+    <div class="col">
+        <p> <b> CONTACT</b>
+         SAYNA SARL <br> business center 2éme étage à gauche 
+         <br> Tanjombato 101 Antananarivo NIF: 5 002 997 537 stat:85497 11 2018 010389 
+         <br> Madagascar
+        </p>
+   </div> 
+</div>
+<hr>
+<!--footer-->
+<footer> 
+    <div class="row5">
+   <div class="col"> © copyrigth Sayna 2016. All rigths Reserveds</div>
+   <div class="col">
+    <img src="img/social_icon_19px_1.png">
+    <img src="img/social_icon_19px_2.png">
+    <img src="img/social_icon_19px_3.png">
+    <img src="img/social_icon_19px_4.png">
+  </div>
+</div>
+</footer>
+</body>
+</html> 
